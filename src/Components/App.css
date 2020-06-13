@@ -1,0 +1,52 @@
+.div {
+  border: solid 1px red;
+}
+
+.NavLink {
+  color: black;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 20px !important;
+}
+
+#img {
+  filter: opacity(30%) brightness(100%);
+  /* filter: brightness(100%); */
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  /* background-color: black; */
+  display: none;
+}
+
+#sliderindicator {
+  background-color: #ffd966;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  /* size: "sm"; */
+}
+
+.active,
+#sliderindicator:hover {
+  background-color: white !important;
+  color: white !important;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 900px) {
+  .centered {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
