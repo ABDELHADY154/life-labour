@@ -1,6 +1,6 @@
 import * as React from "react";
 import { LandingCarousel } from "./LandingCarousel";
-import { Row, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 // import LOGO from "../assets/LOGO.png";
 // import { Nav, Navbar, Form, FormControl, Button } from "react-bootstrap";
 

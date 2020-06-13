@@ -1,6 +1,6 @@
-import React, { useState, render, Fragment } from "react";
+import React, { Fragment } from "react";
 // import LOGO from "../assets/LOGO.png";
-import { Carousel, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import IMG from "../../assets/Homepage.png";
 export function LandingCarousel() {
   return (
