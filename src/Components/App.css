@@ -50,3 +50,15 @@
     transform: translate(-50%, -50%);
   }
 }
+
+.embed-responsive-item {
+  height: 70% !important;
+}
+
+#videoDiv {
+  height: 120% !important;
+}
+.cardImg {
+  height: 70% !important;
+  width: 70% !important;
+}
