@@ -8,6 +8,7 @@ export function HomeVideo() {
     <React.Fragment>
       <div class="embed-responsive embed-responsive-16by9" id="videoDiv">
         <iframe
+          title="vid"
           class="embed-responsive-item"
           src="https://www.youtube.com/embed/GBGCGSPSK3k"
         ></iframe>

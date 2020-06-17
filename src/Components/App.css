@@ -33,6 +33,7 @@
   background-color: white !important;
   color: white !important;
 }
+
 .centered {
   position: absolute;
   top: 50%;
@@ -58,7 +59,55 @@
 #videoDiv {
   height: 120% !important;
 }
+
 .cardImg {
   height: 70% !important;
   width: 70% !important;
+}
+
+.card {
+  width: 230px !important;
+  height: 50% !important;
+}
+
+.card-group {
+  text-align: center !important;
+  margin-left: 4% !important;
+}
+
+.homeDiv {
+  /* background-image: url("../assets/homeCompanies.png");
+  height: 90vh !important; */
+}
+
+.companiesImg {
+  height: 60vh;
+  padding-bottom: -1%;
+  display: inline-block;
+}
+
+.Media {
+  border: none !important;
+  margin-top: 10%;
+  margin-right: 8%;
+}
+
+.pimg {
+  margin-top: 20%;
+}
+
+.div2 {
+  text-align: center;
+  display: inline-block;
+}
+
+/* .footerLogo {
+  margin-bottom: -90% !important;
+} */
+
+.NavLink {
+  color: white;
+}
+#footer {
+  background-color: black !important;
 }

@@ -4,6 +4,7 @@ import { Row, Col } from "react-bootstrap";
 import "./App.css";
 import { NAVBAR } from "./Header";
 import { Pages } from "./Route";
+import { Footer } from "./Footer";
 
 export function App() {
   return (
@@ -14,8 +15,11 @@ export function App() {
         </Col>
       </Row>
       <Pages />
+      <Row>
+        <Col>
+          <Footer />
+        </Col>
+      </Row>
     </Fragment>
   );
 }
-
-// export default App;

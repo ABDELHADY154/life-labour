@@ -3,16 +3,18 @@ import Consulting from "../../assets/consulting.png";
 import Files from "../../assets/files-and-folders.png";
 import goal from "../../assets/goal.png";
 import light from "../../assets/lightbulb.png";
-// import LOGO from "../assets/LOGO.png";
-import { CardGroup, Card, Button, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 export function HomeCards() {
   return (
     <React.Fragment>
+      <h2 style={{ textAlign: "center", marginTop: -90, marginBottom: 50 }}>
+        Start The Right Way
+      </h2>
       <div class="card-group" style={{ textAlign: "center" }}>
         <Col>
           <div class="card" style={{ width: "18em", border: "none" }}>
-            <img class="card-img-top" src={Files} alt="Card image cap" />
+            <img class="card-img-top" src={Files} alt="" />
             <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
@@ -23,7 +25,7 @@ export function HomeCards() {
         </Col>
         <Col>
           <div class="card" style={{ width: "18em", border: "none" }}>
-            <img class="card-img-top" src={goal} alt="Card image cap" />
+            <img class="card-img-top" src={goal} alt="" />
             <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
@@ -34,7 +36,7 @@ export function HomeCards() {
         </Col>
         <Col>
           <div class="card" style={{ width: "18em", border: "none" }}>
-            <img class="card-img-top" src={Consulting} alt="Card image cap" />
+            <img class="card-img-top" src={Consulting} alt="" />
             <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
@@ -48,7 +50,7 @@ export function HomeCards() {
             class="card"
             style={{ width: "18em", height: "25em", border: "none" }}
           >
-            <img class="card-img-top" src={light} alt="Card image cap" />
+            <img class="card-img-top" src={light} alt="" />
             <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
